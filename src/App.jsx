@@ -1071,7 +1071,7 @@ function Step3() {
 /* ═══════════════════════════════════════════════════════════
    ROOT APP
 ═══════════════════════════════════════════════════════════ */
-export default function App() {
+
   var [screen, setScreen] = useState("lock");
 
   var unlock  = useCallback(function(){ setScreen("step1"); }, []);
